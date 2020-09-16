@@ -21,9 +21,9 @@ function App() {
                     <a href="index.html">tronix</a>
                 </div>
                 <div className="header_links">
-                    <a href="wishlist.html">Wishlist </a>
-                    <a href="mycart.html">My Cart </a>
-                    <a href="register.html">Register </a>
+                    <a href="wishlist.html">Wishlist</a>&nbsp;
+                    <a href="mycart.html">My Cart</a>&nbsp;
+                    <a href="register.html">Register</a>&nbsp;
                 </div>
             </header>
             <aside className="sidebar">
