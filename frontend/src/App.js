@@ -21,15 +21,9 @@ function App() {
                     <a href="index.html">tronix</a>
                 </div>
                 <div className="header_links">
-<<<<<<< HEAD
-                    <a href="wishlist.html">Wishlist</a>
-                    <a href="mycart.html">My Cart</a>
-                    <a href="register.html">Register</a>
-=======
                     <a href="wishlist.html">Wishlist </a>
                     <a href="mycart.html">My Cart </a>
                     <a href="register.html">Register </a>
->>>>>>> branch1-post-reactport
                 </div>
             </header>
             <aside className="sidebar">
@@ -48,44 +42,6 @@ function App() {
                 </ul>
             </aside>
             <main className="main">
-<<<<<<< HEAD
-                <div className="content">
-                   <ul className="products">
-                    <li> 
-                        <div className="product1">
-                            <img className="product_image" src="/images/d1.jpg" alt="product1" />
-                            <div className="product_name">
-                                <a href="product.html">MacBook Air (8GB RAM, 256GB SSD Storage) - Space Gray</a>
-                            </div>
-                            <div className="product_brand">Apple</div>
-                            <div className="product_price">₹70,000</div>
-                            <div className="product_rating">5 Stars (10 Reviews)</div>
-                        </div>
-                    </li>
-                    <li> 
-                        <div className="product1">
-                            <img className="product_image" src="/images/d1.jpg" alt="product1" />
-                            <div className="product_name">
-                                <a href="product.html">MacBook Air (8GB RAM, 256GB SSD Storage) - Space Gray</a>
-                            </div>
-                            <div className="product_brand">Apple</div>
-                            <div className="product_price">₹70,000</div>
-                            <div className="product_rating">4.5 Stars (10 Reviews)</div>
-                        </div>
-                    </li>
-                    <li> 
-                        <div className="product1">
-                            <img className="product_image" src="/images/d1.jpg" alt="product1" />
-                            <div className="product_name">
-                                <a href="product.html">MacBook Air (8GB RAM, 256GB SSD Storage) - Space Gray</a>
-                            </div>
-                            <div className="product_brand">Apple</div>
-                            <div className="product_price">₹70,000</div>
-                            <div className="product_rating">4.5 Stars (10 Reviews)</div>
-                        </div>
-                    </li>
-                </ul> 
-=======
                 <div className="products">
                    {
                        data.products.map(product =>
@@ -104,7 +60,6 @@ function App() {
 }
 
                 
->>>>>>> branch1-post-reactport
                 </div>
                 
             </main>
