@@ -44,17 +44,13 @@ body{
   grid-area: main;
 }
 .footer{
-  position:absolute;
-  left:0;
-  bottom:0;
-  right:0;
   grid-area: footer;
   background-color: #222222;
   color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.5rem;
+  
 }
 a{
   text-decoration: none;
