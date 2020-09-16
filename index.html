@@ -10,7 +10,7 @@
         <div class="container-grid">
             <header class="header">
                 <div class="brandname">
-                    <button>
+                    <button onclick="openMenu()">
                         &#9776;
                     </button>
                     <a href="index.html">tronix</a>
@@ -79,7 +79,11 @@
                 Created 2020.
             </footer>
         </div>
-
+        <script>
+            function openMenu(){
+                document.querySelector(".sidebar").classList.add("open");
+            }
+        </script>
     </body>
 
 </html>
