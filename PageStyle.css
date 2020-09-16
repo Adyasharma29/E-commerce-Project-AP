@@ -118,3 +118,16 @@ a:hover{
 .sidebar.open{
     transform: translateX(0);    
 }
+.close_button{
+    border-radius: 50%;
+    border: 0.1rem #000000 solid;
+    width 3rem;
+    height: 3rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+    padding-top: 0;
+    cursor: pointer;
+    position: absolute;
+    right: .5rem;
+    top: 1.5rem;
+}
