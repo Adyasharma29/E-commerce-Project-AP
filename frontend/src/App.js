@@ -11,23 +11,23 @@ function App() {
     document.querySelector(".sidebar").classList.remove("open");
   }
   return (
-    <div class="container-grid">
-            <header class="header">
-                <div class="brandname">
+    <div className="container-grid">
+            <header className="header">
+                <div className="brandname">
                     <button onClick={openMenu}>
                         &#9776;
                     </button>
                     <a href="index.html">tronix</a>
                 </div>
-                <div class="header_links">
+                <div className="header_links">
                     <a href="wishlist.html">Wishlist</a>
                     <a href="mycart.html">My Cart</a>
                     <a href="register.html">Register</a>
                 </div>
             </header>
-            <aside class="sidebar">
+            <aside className="sidebar">
                 <h3>Categories</h3>
-                <button class="close_button" onClick={closeMenu}>x</button>
+                <button className="close_button" onClick={closeMenu}>x</button>
                 <ul>
                     <li>
                         <a href="index.html">Laptops</a>
@@ -40,47 +40,47 @@ function App() {
                     </li>
                 </ul>
             </aside>
-            <main class="main">
-                <div class="content">
-                   <ul class="products">
+            <main className="main">
+                <div className="content">
+                   <ul className="products">
                     <li> 
-                        <div class="product1">
-                            <img class="product_image" src="/images/d1.jpg" alt="product1" />
-                            <div class="product_name">
+                        <div className="product1">
+                            <img className="product_image" src="/images/d1.jpg" alt="product1" />
+                            <div className="product_name">
                                 <a href="product.html">MacBook Air (8GB RAM, 256GB SSD Storage) - Space Gray</a>
                             </div>
-                            <div class="product_brand">Apple</div>
-                            <div class="product_price">₹70,000</div>
-                            <div class="product_rating">5 Stars (10 Reviews)</div>
+                            <div className="product_brand">Apple</div>
+                            <div className="product_price">₹70,000</div>
+                            <div className="product_rating">5 Stars (10 Reviews)</div>
                         </div>
                     </li>
                     <li> 
-                        <div class="product1">
-                            <img class="product_image" src="/images/d1.jpg" alt="product1" />
-                            <div class="product_name">
+                        <div className="product1">
+                            <img className="product_image" src="/images/d1.jpg" alt="product1" />
+                            <div className="product_name">
                                 <a href="product.html">MacBook Air (8GB RAM, 256GB SSD Storage) - Space Gray</a>
                             </div>
-                            <div class="product_brand">Apple</div>
-                            <div class="product_price">₹70,000</div>
-                            <div class="product_rating">4.5 Stars (10 Reviews)</div>
+                            <div className="product_brand">Apple</div>
+                            <div className="product_price">₹70,000</div>
+                            <div className="product_rating">4.5 Stars (10 Reviews)</div>
                         </div>
                     </li>
                     <li> 
-                        <div class="product1">
-                            <img class="product_image" src="/images/d1.jpg" alt="product1" />
-                            <div class="product_name">
+                        <div className="product1">
+                            <img className="product_image" src="/images/d1.jpg" alt="product1" />
+                            <div className="product_name">
                                 <a href="product.html">MacBook Air (8GB RAM, 256GB SSD Storage) - Space Gray</a>
                             </div>
-                            <div class="product_brand">Apple</div>
-                            <div class="product_price">₹70,000</div>
-                            <div class="product_rating">4.5 Stars (10 Reviews)</div>
+                            <div className="product_brand">Apple</div>
+                            <div className="product_price">₹70,000</div>
+                            <div className="product_rating">4.5 Stars (10 Reviews)</div>
                         </div>
                     </li>
                 </ul> 
                 </div>
                 
             </main>
-            <footer class="footer">
+            <footer className="footer">
                 Created 2020.
             </footer>
         </div>
