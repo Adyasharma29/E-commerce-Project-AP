@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import data from './data';
-import { BrowserRouter, Route} from 'react-router-dom';
+import { BrowserRouter, Route, Link} from 'react-router-dom';
 import './App.css';
 import Homescreen from './Screens/HomeScreen';
 import ProductScreen from './Screens/ProductScreen'
@@ -22,7 +22,7 @@ function App() {
                     <button onClick={openMenu}>
                         &#9776;
                     </button>
-                    <a href="index.html">tronix</a>
+                    <Link to="/" >tronix</Link>
                 </div>
                 <div className="header_links">
                     <a href="wishlist.html">Wishlist</a>&nbsp;
@@ -49,24 +49,7 @@ function App() {
                 <div className="products">
                     <Route path ="/product/:id" component={ProductScreen} />
                     <Route path="/" exact={true} component={Homescreen} />
-                   <ul className="products">
-                   {
-                       data.products.map(product =>
-                     
-                    <li> 
-                        <div className="product1">
-                            <img className="product_image" src={product.image} alt="product1" />
-                            <div className="product_name">
-                                <a href="product.html">{product.name}</a>
-                            </div>
-                            <div className="product_brand">{product.brand}</div>
-                            <div className="product_price">₹{product.price}</div>
-                            <div className="product_rating">{product.rating} Stars ({product.numReviews} Reviews) </div>
-                        </div>
-                    </li>)
-}
-
-                </ul>
+                  
                 </div>
                 
             </main>

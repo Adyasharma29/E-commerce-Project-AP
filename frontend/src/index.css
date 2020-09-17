@@ -7,6 +7,9 @@ body{
   height: 100vh;
   margin: 0;   
 }
+#root{
+  height: 100%;
+}
 .container-grid{
   display: grid;
   grid-template-areas: 
@@ -72,7 +75,7 @@ a:hover{
   padding: 0;
   flex: 0 1 34rem;
   margin: 1rem;
-  height: 50rem;
+  height: 2rem;
   border-bottom: 0.1rem #c0c0c0 solid;
 }
 .product1{
@@ -133,4 +136,30 @@ a:hover{
   position: absolute;
   right: .5rem;
   top: 1.5rem;
+}
+/* Product Details*/
+.details{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+}
+
+.details-image {
+  flex: 2 1 60rem;
+}
+
+.details-image img{
+  max-width: 60rem;
+  widows: 100%;
+}
+
+.details-info {
+  flex: 1 1 30rem;
+}
+
+
+.details-action {
+  flex: 1 1 30rem;
 }

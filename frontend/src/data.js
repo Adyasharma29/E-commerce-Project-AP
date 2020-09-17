@@ -1,6 +1,7 @@
 export default {
     products:[
         {
+        _id:'1',
         name: 'MacBook Air (8GB RAM, 256GB SSD Storage) - Space Gray',
         category: 'Laptop',
         image: '/images/d1.jpg',
@@ -10,6 +11,7 @@ export default {
         numReviews: 10
     },
     {
+        _id:'2',
         name: 'MacBook Air (8GB RAM, 256GB SSD Storage) - Space Gray',
         category: 'Laptop',
         image: '/images/d1.jpg',
@@ -19,6 +21,7 @@ export default {
         numReviews: 10
     },
     {
+        _id:'3',
         name: 'MacBook Air (8GB RAM, 256GB SSD Storage) - Space Gray',
         category: 'Laptop',
         image: '/images/d1.jpg',
